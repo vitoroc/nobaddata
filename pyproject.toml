@@ -1,0 +1,12 @@
+[project]
+name = "nobaddata"
+version = "0.1.0"
+description = "A flexible, rule-based data quality framework for validating datasets, enforcing constraints, and ensuring data integrity."
+authors = [{ name = "Vitor" }]
+requires-python = ">=3.10"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
