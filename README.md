@@ -1,4 +1,4 @@
-# nobaddata
+# NoBadData
 
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
