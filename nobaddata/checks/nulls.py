@@ -1,7 +1,9 @@
 from nobaddata.core.check import Check
+from nobaddata.core.registry import register_check
 from nobaddata.models.result import CheckResult
 
 
+@register_check("null_check")
 class NullCheck(Check):
     def __init__(self, column: str, threshold: float = 0.0, severity: str = "WARNING"):
         if not 0 <= threshold <= 1:

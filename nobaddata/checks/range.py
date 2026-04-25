@@ -1,7 +1,9 @@
 from nobaddata.core.check import Check
+from nobaddata.core.registry import register_check
 from nobaddata.models.result import CheckResult
 
 
+@register_check("range_check")
 class RangeCheck(Check):
     def __init__(
         self,

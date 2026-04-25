@@ -1,0 +1,10 @@
+# examples/config.yaml
+checks:
+  - type: null_check
+    column: email
+    threshold: 0.1
+
+  - type: range_check
+    column: age
+    min_value: 0
+    max_value: 100

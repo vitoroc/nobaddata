@@ -1,0 +1,11 @@
+user_id,email,age,signup_date
+1,alice@example.com,25,2024-01-10
+2,bob@example.com,30,2024-01-11
+3,,22,2024-01-12
+4,charlie@example.com,150,2024-01-13
+5,david@example.com,-5,2024-01-14
+6,emma@example.com,29,2024-01-15
+7,frank@example.com,,2024-01-16
+8,invalid-email,35,2024-01-17
+9,george@example.com,40,2024-01-18
+10,alice@example.com,25,2024-01-10

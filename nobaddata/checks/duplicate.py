@@ -1,7 +1,9 @@
 from nobaddata.core.check import Check
+from nobaddata.core.registry import register_check
 from nobaddata.models.result import CheckResult
 
 
+@register_check("duplicate_check")
 class DuplicateCheck(Check):
     def __init__(
         self, columns: list[str], threshold: float = 0.0, severity: str = "WARNING"

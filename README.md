@@ -161,6 +161,12 @@ CheckResult(
 ```
 
 ---
+## 📓 Note
+```
+import nobaddata.checks  # required to register built-in checks
+```
+
+---
 
 ## 📄 License
 
