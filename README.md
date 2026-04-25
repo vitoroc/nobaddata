@@ -75,18 +75,25 @@ for r in results:
 ```bash
 nobaddata/
 ├── nobaddata/
+├── ├── checks/
+│   │   ├──duplicate.py
+│   │   ├──nulls.py
+│   │   └── range.py
+├── ├── cli/
+│   │   └── main.py
+├── ├── config/
+│   │   └── loader.py
 │   ├── core/
 │   │   ├── check.py
-│   │   └── engine.py
+│   │   ├── engine.py
+│   │   └── registry.py
 │   ├── models/
 │   │   └── result.py
-│   └── checks/
-│       └── nulls.py
+│   ├── reporting/
+│   │   ├── console.py
+│   │   └── reporter.py
 │
 ├── tests/
-│   ├── core/
-│   └── checks/
-│
 ├── examples/
 ├── pyproject.toml
 └── README.md
