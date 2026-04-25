@@ -76,22 +76,12 @@ for r in results:
 nobaddata/
 ├── nobaddata/
 ├── ├── checks/
-│   │   ├──duplicate.py
-│   │   ├──nulls.py
-│   │   └── range.py
 ├── ├── cli/
 │   │   └── main.py
 ├── ├── config/
-│   │   └── loader.py
 │   ├── core/
-│   │   ├── check.py
-│   │   ├── engine.py
-│   │   └── registry.py
 │   ├── models/
-│   │   └── result.py
-│   ├── reporting/
-│   │   ├── console.py
-│   │   └── reporter.py
+│   └── reporting/
 │
 ├── tests/
 ├── examples/
