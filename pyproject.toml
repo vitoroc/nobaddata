@@ -5,6 +5,9 @@ description = "A flexible, rule-based data quality framework for validating data
 authors = [{ name = "Vitor" }]
 requires-python = ">=3.10"
 
+[project.scripts]
+nobaddata = "nobaddata.cli.main:main"
+
 [tool.black]
 line-length = 88
 
